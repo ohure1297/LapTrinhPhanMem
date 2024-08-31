@@ -3,14 +3,16 @@
     padding: 0;
 }
 
-main{
-    background-color: rgb(207, 226, 243);
+body{
+    font-size: 15px;
+    background-color: rgb(239, 232, 190);
+    font-family: 'Gill Sans MT';
     height: 100vh;
 }
 
 form{
     margin: 0 auto;
-    width: 800px;
+    width: 700px;
     font-weight: bold;
     border: 1px solid black;
 }
@@ -20,12 +22,13 @@ form input, select{
 }
 
 form section{
-    padding-left: 20px;
+    padding: 1pc;
 }
 
 .certi_info input,.certi_info select{
     width: 650px;
 }
+
 
 .certi_date{
     width: 650px;
@@ -34,12 +37,13 @@ form section{
 }
 
 .certi_checkbox{
-    margin-top: 23px;
+    
+    margin-top: 20px;
 }
 
 .certi_date .certi_checkbox{
     margin-left: 80px;
-    
+
 }
 
 .certi_score{
@@ -61,6 +65,7 @@ form section{
 }
 
 .save_reset_cancel{
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
     gap:20px
