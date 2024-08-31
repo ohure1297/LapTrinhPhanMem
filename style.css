@@ -4,12 +4,69 @@
 }
 
 main{
-    background-color: #000;
+    background-color: rgb(207, 226, 243);
     height: 100vh;
 }
 
-h2{
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+form{
+    margin: 0 auto;
+    width: 800px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+form input, select{
+    font-size: 15px;
+}
+
+form section{
+    padding-left: 20px;
+}
+
+.certi_info input,.certi_info select{
+    width: 650px;
+}
+
+.certi_date{
+    width: 650px;
+    display: flex;
+    gap:30px;
+}
+
+.certi_checkbox{
+    margin-top: 23px;
+}
+
+.certi_date .certi_checkbox{
+    margin-left: 80px;
+    
+}
+
+.certi_score{
+    width: 650px;
+    display: flex;
+    gap:20px;
+}
+
+.certi_score div{
+    padding-left: 0;
+}
+.certi_score .ip_score{
+    width: 370px;
+}
+
+.des input{
+    width: 650px;
+    line-height: 5em;
+}
+
+.save_reset_cancel{
+    display: flex;
+    flex-direction: row;
+    gap:20px
+}
+
+.save_reset_cancel button{
+    width: 60px;
+    height: 25px;
 }
